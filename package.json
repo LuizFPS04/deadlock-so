@@ -1,0 +1,30 @@
+{
+    "name": "deadlock-so",
+    "version": "1.0.0",
+    "description": "The project simulates the deadlock of the OS.",
+    "main": "dist/index.js",
+    "type": "commonjs",
+    "scripts": {
+        "dev": "ts-node-dev --inspect --transpile-only --ignore-watch node_modules src/server.ts",
+        "build": "tsc",
+        "start": "node dist/server.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+        "OS",
+        "deadlock"
+    ],
+    "author": "Luiz Felipe",
+    "license": "ISC",
+    "dependencies": {
+        "dotenv": "^16.4.5",
+        "express": "^4.19.2"
+    },
+    "devDependencies": {
+        "@types/dotenv": "^8.2.0",
+        "@types/express": "^4.17.21",
+        "@types/node": "^20.14.12",
+        "ts-node-dev": "^2.0.0",
+        "typescript": "^5.5.4"
+    }
+}
